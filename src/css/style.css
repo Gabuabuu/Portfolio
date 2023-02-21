@@ -94,12 +94,14 @@ justify-content: center;
 }
 
 #subtitle-w {
+    margin-top: 8px;
     font-size: 24px;
-    font-weight: bold;
+    border-right: 2px solid;
+    width: 24.2ch;
+    white-space: nowrap;
+    overflow: hidden;
     color: #0000009b;
-    
-    
-
+    animation: typing 4.9s steps(23), blinking 0.5s infinite step-end alternate;font-weight: bold; 
 }
 
 #intro-profile-image {
@@ -133,12 +135,13 @@ a {
     border-radius: 20px;
     font-size: 16pt;
     font-weight: bold;
-    /* background-color: #970cb3d5; */
+    background-color: #9f43bd;
+
     cursor: pointer;
 }
 
 #gh-button:hover {
-    background-color: #8938d4cb;
+    background-color: #bea6c7;
     font-size: 24px;
 }
 
