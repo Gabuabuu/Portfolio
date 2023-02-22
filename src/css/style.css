@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap%27');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
 
 :root {
     --text-color: #FFFFFF;
@@ -10,7 +10,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Rubik', sans-serif;
+    font-family: 'DM Sans', sans-serif;
     list-style: none;
     text-decoration: none;
 
@@ -71,7 +71,7 @@ li > a:hover {
 /* Introdução */
 
 .banner {
-margin: 104px 120px;
+margin: 104px 120px 40px;
 display: flex;
 justify-content: center;
 /* border: 10px solid black; */
@@ -86,7 +86,7 @@ justify-content: center;
 #title-w {
     font-size: 35px;
     border-right: 2px solid;
-    width: 18.7ch;
+    width: 17.6ch;
     white-space: nowrap;
     overflow: hidden;
 
@@ -97,7 +97,7 @@ justify-content: center;
     margin-top: 8px;
     font-size: 24px;
     border-right: 2px solid;
-    width: 24.2ch;
+    width: 22.5ch;
     white-space: nowrap;
     overflow: hidden;
     color: #0000009b;
@@ -147,10 +147,31 @@ a {
 
 /* About */
 
-.about {
-    display: flex;
-    justify-content: center;
+hr {
+    border: #000000 1.8px solid;
+    margin: 10px 25vw 25px;
+    text-align: center;
+    width: 50%;
 }
+
+#about-title {
+    text-align: center;
+    font-size: 32px;
+}
+
+p {
+    text-align: center;
+    margin: 20px;
+    font-size: 1.4rem;
+    color: #000000a6;
+    font-weight: bold;
+}
+
+
+
+
+
+
 
 /* Animations */
 @keyframes typing {
